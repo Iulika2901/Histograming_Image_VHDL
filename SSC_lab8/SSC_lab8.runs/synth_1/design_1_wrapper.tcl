@@ -56,8 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
@@ -165,6 +163,17 @@ set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_55/bd_afc3_m05wn_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_56/bd_afc3_m05bn_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_56/bd_afc3_m05bn_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_58/bd_afc3_m06s2a_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_59/bd_afc3_m06arn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_59/bd_afc3_m06arn_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_60/bd_afc3_m06rn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_60/bd_afc3_m06rn_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_61/bd_afc3_m06awn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_61/bd_afc3_m06awn_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_62/bd_afc3_m06wn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_62/bd_afc3_m06wn_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_63/bd_afc3_m06bn_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_63/bd_afc3_m06bn_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/smartconnect.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_board.xdc]
@@ -176,6 +185,9 @@ set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_board.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2.xdc]
 set_property used_in_implementation false [get_files -all d:/C/fac3/sem1/ssc/SSC_lab8/SSC_lab8/SSC_lab8.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 
 OPTRACE "Adding files" END { }

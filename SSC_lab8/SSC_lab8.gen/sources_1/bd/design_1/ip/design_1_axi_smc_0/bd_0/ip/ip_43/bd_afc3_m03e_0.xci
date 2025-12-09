@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "bd_afc3_m03e_0",
-    "cell_name": "m03_exit_pipeline/m03_exit",
+    "cell_name": "m03_exit",
     "component_reference": "xilinx.com:ip:sc_exit:1.0",
     "ip_revision": "15",
     "gen_directory": ".",
@@ -34,7 +34,7 @@
         "HAS_LOCK": [ { "value": "0", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "HAS_BURST": [ { "value": "1", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "HAS_ACLKEN": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
-        "NUM_MSC": [ { "value": "6", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "NUM_MSC": [ { "value": "7", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "READ_ACCEPTANCE": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "WRITE_ACCEPTANCE": [ { "value": "32", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "NUM_WRITE_OUTSTANDING": [ { "value": "8", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
@@ -321,7 +321,7 @@
         "C_ADDR_WIDTH": [ { "value": "13", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_M_PROTOCOL": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_HAS_LOCK": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_NUM_MSC": [ { "value": "6", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_NUM_MSC": [ { "value": "7", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_SINGLE_ISSUING": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_M_LIMIT_READ_LENGTH": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_M_LIMIT_WRITE_LENGTH": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -334,7 +334,7 @@
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],
-        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo-z7-20:part0:1.1" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xc7z020" } ],
         "NEXTGEN_VERSAL": [ { "value": "0" } ],
@@ -610,7 +610,7 @@
           "parameters": {
             "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant_prop", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
             "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ],
-            "TYPE": [ { "value": "INTERCONNECT", "value_permission": "bd", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ]
+            "TYPE": [ { "value": "INTERCONNECT", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ]
           },
           "port_maps": {
             "RST": [ { "physical_name": "aresetn" } ]

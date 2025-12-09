@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "bd_afc3_m05bn_0",
-    "cell_name": "m05_nodes/m05_b_node",
+    "cell_name": "m05_b_node",
     "component_reference": "xilinx.com:ip:sc_node:1.0",
     "ip_revision": "16",
     "gen_directory": ".",
@@ -116,7 +116,7 @@
       },
       "project_parameters": {
         "ARCHITECTURE": [ { "value": "zynq" } ],
-        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zybo-z7-20:part0:1.1" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
         "BOARD_CONNECTIONS": [ { "value": "" } ],
         "DEVICE": [ { "value": "xc7z020" } ],
         "NEXTGEN_VERSAL": [ { "value": "0" } ],

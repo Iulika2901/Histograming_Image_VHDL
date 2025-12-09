@@ -244,6 +244,24 @@
             },
             "V6": {
                 "VT": "AC",
+                "BA": "0x41220000",
+                "HA": "0x4122FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "Data",
+                "MX": "/processing_system7_0",
+                "MI": "M_AXI_GP0",
+                "MS": "SEG_axi_gpio_led_Reg",
+                "MV": "xilinx.com:ip:processing_system7:5.5",
+                "SX": "/axi_gpio_led",
+                "SI": "S_AXI",
+                "SS": "Reg",
+                "SV": "xilinx.com:ip:axi_gpio:2.0",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V7": {
+                "VT": "AC",
                 "BA": "0x42000000",
                 "HA": "0x42001FFF",
                 "BP": "C_S_AXI_BASEADDR",
@@ -260,7 +278,7 @@
                 "TM": "both",
                 "TU": "memory"
             },
-            "V7": {
+            "V8": {
                 "VT": "AC",
                 "BA": "0x44000000",
                 "HA": "0x44001FFF",
@@ -278,7 +296,7 @@
                 "TM": "both",
                 "TU": "memory"
             },
-            "V8": {
+            "V9": {
                 "VT": "AC",
                 "BA": "0x46000000",
                 "HA": "0x46001FFF",
@@ -333,6 +351,11 @@
             },
             {
                 "src": "V8",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V9",
                 "trg": "V2",
                 "EH": "2"
             }
